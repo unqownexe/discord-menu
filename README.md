@@ -9,7 +9,5 @@ Kendi sucunumda kullandığım kodlardır. Index.js adlı dosyada değiştirmeni
 - Website: [www.unqown.xyz](https://www.unqown.xyz)
 - İletişim: [www.unqown.xyz/iletisim](https://www.unqown.xyz/iletisim)
 
-
-## İçerik
-
-   <img src="https://media.discordapp.net/attachments/798849910203875388/930437433957429248/unknown.png?width=549&height=664" </img>
+Resim;
+<img src="https://media.discordapp.net/attachments/798849910203875388/930437433957429248/unknown.png?width=549&height=664" </img>
