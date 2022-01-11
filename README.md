@@ -11,4 +11,5 @@ Kendi sucunumda kullandığım kodlardır. Index.js adlı dosyada değiştirmeni
 
 
 ## İçerik
-<img src="https://media.discordapp.net/attachments/798849910203875388/930437433957429248/unknown.png?width=549&height=664" </img>
+
+   <img src="https://media.discordapp.net/attachments/798849910203875388/930437433957429248/unknown.png?width=549&height=664" </img>
