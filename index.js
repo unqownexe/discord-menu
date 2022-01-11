@@ -34,18 +34,18 @@ client.on("message", async(message) =>{
 if(message.guild && message.content == "!cinsiyet-test" && message.author.id == message.guild.ownerID){
 
 
-const select1 = new Buttons.MessageMenuOption().setValue("Erkek")
+const select1 = new dbutton.MessageMenuOption().setValue("Erkek")
 .setLabel("Beyefendi")
 .setEmoji("👨")
-const select2 = new Buttons.MessageMenuOption().setValue("Kız")
+const select2 = new dbutton.MessageMenuOption().setValue("Kız")
 .setLabel("Hanımefendi")
 .setEmoji("👩")
-const menu = new Buttons.MessageMenu()
+const menu = new dbutton.MessageMenu()
 .setPlaceholder("Cinsiyet Seç")
 .setID("DR3") 
 .addOptions([select1, select2])
 
-const Row = new Buttons.MessageActionRow().addComponent(menu)
+const Row = new dbutton.MessageActionRow().addComponent(menu)
 message.channel.send(new Discord.MessageEmbed().setColor("RANDOM").setImage("https://media.discordapp.net/attachments/798849910203875388/865190275634036747/88-887195_half-blue-half-red-stick-figure-woman-clip.png?width=252&height=519").setDescription(`Cinsiyetini belirt!`),Row)
 }
 })
